@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Rubens Gomes Agostinho Portfolio</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
+        <div class="container topnav">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand topnav" href="#home"><span style="font-size: 22px;" class="glyphicon glyphicon-knight animacaoLogo" aria-hidden="true"></span></a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#sobre">Sobre</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio">Portfólio</a>
+                    </li>
+                    <li>
+                        <a href="#contato">Contato</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+
+    <!-- Header -->
+    <div class="intro-header">
+        <div class="container" id="home">
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="intro-message">
+                        <h1>Rubens Gomes Agostinho</h1>
+                        <h3>Full stack Developer</h3>
+                        <hr class="intro-divider">
+                        <ul class="list-inline intro-social-buttons">
+                            <li>
+                                <a href="https://www.facebook.com/rubens.gomes.7" class="btn btn-info btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/rubens-gomes-agostinho-80478412b?trk=nav_responsive_tab_profile_pic" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.intro-header -->
+
+    <!-- Page Content -->
+
+	
+    <div class="content-section-a" id="sobre">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Quem sou eu?</h2>
+                    <p class="lead">Atualmente trabalho como freelancer desenvolvendo soluções web-sites, e-commerces, etc...<br /> Trabalho com
+                    tecnologias como:
+                    <ul>
+                        <li style="text-decoration: underline; list-style-type: none;" ><strong>FRONT-END</strong></li>
+                        <li>HTML</li>
+                        <li>CSS3</li>
+                        <li>Javascript</li>
+                        </br>
+                        <li style="text-decoration: underline; list-style-type: none;" ><strong>BACK-END</strong></li>
+                        <li>PHP7</li>
+                        </br>
+                        <li style="text-decoration: underline; list-style-type: none;" ><strong>BANCO DE DADOS</strong></li>
+                        <li>MySQL</li>
+                        <li>SQL Server</li>
+                    </ul>
+                </div>
+                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                    <img class="img-responsive img-circle" src="img/eu.jpg" style="border: 1px solid black">
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-a -->
+    <div class="content-section-b" id="portfolio">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">E-Commerce<br>Gráfica Flaguri's</h2>
+                    <p class="lead">Atual desenvolvimento utilizando o framework MaterializeCSS e o back-end em PHP7.<br/>
+                    Visite a Gráfica Flaguri's  <a target="_blank" href="http://graficaflaguris-com.umbler.net">Grafica Flaguri's</a>
+                </div>
+                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                    <a href="http://graficaflaguris-com.umbler.net"><img class="img-responsive" src="img/dog.png"></a>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-b -->
+
+    <div class="content-section-b">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-5 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Design responsivo</h2>
+                    <p class="lead">Trabalhamos com páginas que você pode acessar na plataforma em que desejar</p>
+                </div>
+                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                    <img class="img-responsive" src="img/phones.png" alt="">
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-a -->
+    <a  name="contato"></a>
+    <div class="banner">
+
+    <?php
+        require_once('contato.php');
+    ?>
+
+    <!-- Footer -->
+    <a id="back-to-top" href="#" class="btn btn-default btn-lg back-to-top" role="button" title="Voltar ao topo" data-toggle="tooltip" data-placement="left"><span class="glyphicon glyphicon-chevron-up"></span></a>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="copyright text-muted small">Copyright &copy; Todos os direitos reservados</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- rolagem -->
+    <script>
+        var $doc = $('html, body');
+        $('a').click(function() {
+        $doc.animate({
+            scrollTop: $( $.attr(this, 'href') ).offset().top
+        }, 1000);
+        return false;
+        });
+    </script>
+    <script>
+        $(document).ready(function(){
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 50) {
+                $('#back-to-top').fadeIn();
+            } else {
+                $('#back-to-top').fadeOut();
+            }
+        });
+        // scroll body to 0px on click
+        $('#back-to-top').click(function () {
+            $('#back-to-top').tooltip('hide');
+            $('body,html').animate({
+                scrollTop: 0
+            }, 800);
+            return false;
+        });
+        
+        $('#back-to-top').tooltip('show');
+
+        });
+    </script>
+
+</body>
+
+</html>
